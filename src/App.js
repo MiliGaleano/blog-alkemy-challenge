@@ -1,5 +1,5 @@
 import React from 'react'
-import {Route, BrowserRouter} from 'react-router-dom'
+import {Route, BrowserRouter, Redirect} from 'react-router-dom'
 import Home from './pages/home'
 import Detail from './pages/detail'
 import Create from './pages/create'
@@ -11,6 +11,9 @@ function App() {
     <BrowserRouter>
       <Route path='/' exact>
         <Home/>
+      </Route>
+      <Route path='/detail' exact>
+        <Redirect to='/' />
       </Route>
       <Route path='/detail/:id'>
         <Detail />
