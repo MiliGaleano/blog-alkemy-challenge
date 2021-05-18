@@ -1,8 +1,9 @@
 import React from 'react'
+import Header from '../components/header'
 
 const Create = () => {
     return(
-        <div>Create</div>
+        <Header activeKey='/create' />
     )
 }
 
