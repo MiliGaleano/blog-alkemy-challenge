@@ -19,10 +19,3 @@ const ListOfPosts = ({posts, page}) => {
 }
 
 export default ListOfPosts
-
-/* {posts ? posts.map((post) => 
-                    <CardPost key={post.id} title={post.title} />
-                )
-                : <CardPost title='Hola como va esto es una nota' />
-                }
-*/
