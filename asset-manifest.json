@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/blog-alkemy-challenge/static/css/main.0d375bc2.chunk.css",
+    "main.js": "/blog-alkemy-challenge/static/js/main.acae7081.chunk.js",
+    "main.js.map": "/blog-alkemy-challenge/static/js/main.acae7081.chunk.js.map",
+    "runtime-main.js": "/blog-alkemy-challenge/static/js/runtime-main.69847204.js",
+    "runtime-main.js.map": "/blog-alkemy-challenge/static/js/runtime-main.69847204.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/blog-alkemy-challenge/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.27cb0b27.chunk.js": "/blog-alkemy-challenge/static/js/2.27cb0b27.chunk.js",
+    "static/js/2.27cb0b27.chunk.js.map": "/blog-alkemy-challenge/static/js/2.27cb0b27.chunk.js.map",
+    "index.html": "/blog-alkemy-challenge/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/blog-alkemy-challenge/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.0d375bc2.chunk.css.map": "/blog-alkemy-challenge/static/css/main.0d375bc2.chunk.css.map",
+    "static/js/2.27cb0b27.chunk.js.LICENSE.txt": "/blog-alkemy-challenge/static/js/2.27cb0b27.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.69847204.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.27cb0b27.chunk.js",
+    "static/css/main.0d375bc2.chunk.css",
+    "static/js/main.acae7081.chunk.js"
+  ]
+}
