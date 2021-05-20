@@ -17,6 +17,15 @@ h1 {
     margin: 1em;
 }
 
+a{
+    color: rgb(27, 27, 27);
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(139, 137, 137);
+    text-decoration: none;
+}
+
 .justify-between {
     margin: auto;
     display: flex;
@@ -41,6 +50,11 @@ h1 {
     align-items: center;
 }
 
+.loading{
+    position: absolute;
+    overflow: hidden;
+}
+
 .pagesGroup {
     width: 100%;
     margin: 2em auto;
@@ -59,6 +73,15 @@ h1 {
     margin-top: 3rem;
 }
 
+.detailDiv{
+    width: 90%;
+    margin: 3rem 5%;
+}
+
+.ButtonsPosts{
+    z-index: 9999;
+}
+
 @media (min-width: 600px) {
     .justify-between {
         width: 80%;
@@ -72,6 +95,11 @@ h1 {
         width: 60%;
         margin-left: 20%;
     }
+
+    .detailDiv{
+        width: 70%;
+        margin: 3rem 15%;
+    }
 }
 
 @media (min-width: 1100px) {
@@ -82,5 +110,10 @@ h1 {
     .formPost{
         width: 40%;
         margin-left: 30%;
+    }
+
+    .detailDiv{
+        width: 50%;
+        margin: 3rem 25%;
     }
 }

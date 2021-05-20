@@ -18,18 +18,18 @@ const validationSchema = Yup.object().shape({
         .required("Content is required")
   })
 
-const FormPost = ({oldTitle, oldContent, update}) => {
+const FormPost = ({postToEdit, update}) => {
 
     let history = useHistory()
 
     return(
         <Formik 
-            initialValues={{ title: oldTitle ? oldTitle : '' , content: oldContent ? oldContent :""}} 
+            initialValues={{ title: postToEdit ? postToEdit.title : '' , content: postToEdit ? postToEdit.body :""}} 
             validationSchema={validationSchema}
             onSubmit={(values, {setSubmitting, resetForm}) => {
                 setSubmitting(true)
                 if (update) {
-                    updatePost(values)
+                    updatePost(values, postToEdit)
                     .then(res => {
                         resetForm()
                         alert(res)

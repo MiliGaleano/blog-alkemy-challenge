@@ -19,6 +19,9 @@ function App() {
         <Detail />
       </Route>
       <Route path='/edit' exact>
+        <Redirect to='/' />
+      </Route>
+      <Route path='/edit/:id' exact>
         <Edit />
       </Route>
       <Route path='/create' exact>
