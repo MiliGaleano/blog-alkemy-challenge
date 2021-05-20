@@ -8,7 +8,7 @@ import Login from './pages/login'
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Route path='/' exact>
         <Home/>
       </Route>
