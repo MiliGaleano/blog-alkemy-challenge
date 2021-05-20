@@ -1,7 +1,11 @@
-Challenge Frontend
+## Challenge Frontend
 
 Deberás desarrollar un cliente para un Blog. 
-El mismo debe ser armado en React, y consumir los datos de una JSON Placeholder, una API que expone datos ficticios en formato JSON.
+El mismo debe ser armado en React, y consumir los datos de JSON Placeholder, una API que expone datos ficticios en formato JSON.
+
+demo: [https://miligaleano.github.io/blog-alkemy-challenge](https://miligaleano.github.io/blog-alkemy-challenge)
+
+### El desafío
 
 Los endpoints que deberás utilizar son:
 
@@ -34,8 +38,6 @@ Password: react
 En el caso de obtener un error de la API, se deberá mostrar una alerta, mientras que si es satisfactorio deberá redirigir al Home y almacenar el token obtenido en localStorage.
 Las validaciones del formulario deberán realizarse utilizando la librería Formik.
 
-
-
 Home
 Mostrará un listado de posts. En este listado, deberá mostrarse solamente el título de cada uno, y las acciones para ir al detalle del mismo, editarlo o eliminarlo.
 
@@ -59,8 +61,8 @@ La acción de “Eliminar” que contendrán los posts listados en la sección H
 La gestión del estado puede realizarse de la forma que prefieran, como así también la lógica de navegación.
 
 Criterios a evaluar
-● Diseño responsive, moderno e intuitivo.
 
+● Diseño responsive, moderno e intuitivo.
 ● Debe utilizarse Bootstrap para permitir que el proyecto sea responsive, y media queries
 para los elementos personalizados que se desarrollen.
 ● Conocimientos básicos de React.
